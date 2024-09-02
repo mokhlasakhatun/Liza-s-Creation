@@ -8,49 +8,92 @@
 <body>
     <p id="main"></p>
     <script>
-        var a=224;
-        if (a%2!=0)
-    {
-        document.write(a+ " is odd type of number");
+    //     var a=224;
+    //     if (a%2!=0)
+    // {
+    //     document.write(a+ " is odd type of number");
 
-    }
-    else{
-        document.write(a+ " is even type of number");
+    // }
+    // else{
+    //     document.write(a+ " is even type of number");
    
-    }
-    document.write('</br>');
-    var a=65;
-    if(a>=80)
-    {
-        document.write("you have got A+");
+    // }
+    // document.write('</br>');
+    // var a=65;
+    // if(a>=80)
+    // {
+    //     document.write("you have got A+");
 
-    }
-    else if(a>=70)
-    {
-        document.write("you have got A");
+    // }
+    // else if(a>=70)
+    // {
+    //     document.write("you have got A");
 
-    }
-    else if(a>=60)
+    // }
+    // else if(a>=60)
+    // {
+    //     document.write("you have got A-");   
+    // }
+    // else if(a>=50)
+    // {
+    //     document.write("you have got B");
+    // }
+    // else if(a>=40)
+    // {
+    //     document.write("you have got C");   
+    // }
+    // else if(a>=33)
+    // {
+    //     document.write("you have got D");   
+    // }
+    // else 
+    // {
+    //     document.write("you have failed");   
+    // }
+    // document.write("</br>");
+
+
+    var a,b,c;
+    a=7;
+    b=55;
+    c=9;
+    if(a>b && a>c)
     {
-        document.write("you have got A-");   
+        document.write("Largest number is: " + a);
     }
-    else if(a>=50)
+    else if(b>a && b>c)
     {
-        document.write("you have got B");
+        document.write("Largest number is :" + b);
     }
-    else if(a>=40)
+    else
     {
-        document.write("you have got C");   
-    }
-    else if(a>=33)
-    {
-        document.write("you have got D");   
-    }
-    else 
-    {
-        document.write("you have failed");   
+        document.write("Largest is : " + c);
     }
     document.write("</br>");
-    </script>
+    document.write("</br>");
+    document.write("Hello world is a string type of data");
+    document.write("</br>");
 
+    var a=5;
+    document.write(a + " is a number type of data");
+    document.write("</br>");
+    var a=8,b=6,c=7;
+    document.write(a==b);
+    document.write("</br>");
+    document.write(a==c);
+    document.write("</br>");
+
+
+    const person = {
+        FirstName : "Mokhlesa",
+        LastName  : "Liza",
+        Age       : 10,
+        Eyecolor  : "Black",
+        Position  : "Trainee",
+        District  :"Jhenaidah"
+    };
+   
+    document.write(person.FirstName + " " + person.LastName +" Home district is " + person.District);
+</script>  
+</body>
 </html>
