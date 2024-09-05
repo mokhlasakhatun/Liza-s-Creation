@@ -6,65 +6,46 @@
     <title>while loop</title>
 </head>
 <body>
-    <!-- <table border="2">
-       <tr>
-            <th>Name</th>
-            <th> Father's name</th>
-            <th>Mother's name</th>
-            <th>Country</th>
-            <th>Contact number</th>
-            <th>Home district</th>
-        </tr>
-        
-        <tr>
-            <td>Mokhlesa khatun</td>
-            <td>Md,Gulam mustafa</td>
-            <td>Moyna begum</td>
-            <td>Bangladesh</td>
-            <td>01935678910</td>
-            <td>Jhenaidah</td>
-        </tr>
-       <tr>
-            <td>Mulima khatun</td>
-            <td>Sohidul islam</td>
-            <td>Sahana begum</td>
-            <td>Bangladesh</td>
-            <td>01765342345</td>
-            <td>Jhenaidah</td>
-        </tr>
-        <tr>
-            <td>Taslima khatun</td>
-            <td>Sohidul islam</td>
-            <td>Sahana begum</td>
-            <td>Bangladesh</td>
-            <td>01345678990</td>
-            <td>Jhenaidah</td>
-        </tr>
-        <tr>
-            <td>Rahima khatun</td>
-            <td>Sohidul islam</td>
-            <td>Sahana begum</td>
-            <td>Bangladesh</td>
-            <td>01935876546</td>
-            <td>Jhenaidah</td>
-        </tr>
-        <tr>
-            <td>Karimul islam</td>
-            <td>Md.Gulam mustafa</td>
-            <td>Moyna begum</td>
-            <td>Bangladesh</td>
-            <td>01935678910</td>
-            <td>Jhenaidah</td>
-        </tr>
-    </table> -->
+   
 
-<script>
+<!-- <script>
     var i = 0;
     while(i<10){
         document.write(i + "</br>");
         i++;
     }
-</script>
+    /while loop finish/
+    var i =0;
+     do{
+        document.write(i + "</br>");
+     }while(i<0)
 
+/do whilw loop end/
+</script> -->
+<script>
+    for(var a=10;a>=1;a--)
+{
+    for (var b=10;b>=1;b--)
+{
+    var c=a*b;
+    document.write(a + "x" + b + "=" + c + "</br>")
+}
+}
+for (var a=0; a<100; a++) {
+    if(a%3==0 && a%5==0){
+        document.write("FizzBuzz </br>");
+    }
+    else if(a%3==0){
+        document.write("Fizz </br>");
+
+    }
+    else if(a%5==0){
+        document.write("Buzz </br>");
+    }
+    else{
+        document.write(a ,"</br>");
+    }
+}
+</script>
 </body>
 </html>
